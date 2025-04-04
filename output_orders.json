@@ -16,17 +16,6 @@
         ]
     },
     {
-        "order_id": "1",
-        "customer": "lu",
-        "items": [
-            {
-                "name": "狗屎",
-                "price": 100,
-                "quantity": 2
-            }
-        ]
-    },
-    {
         "order_id": "O002",
         "customer": "李小華",
         "items": [
