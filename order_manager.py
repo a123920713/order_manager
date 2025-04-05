@@ -21,7 +21,6 @@ def save_orders(filename: str, orders: List[Dict]) -> None:
 def calculate_order_total(order: Dict) -> int:
     return sum(item['price'] * item['quantity'] for item in order['items'])
 
-
 def add_order(orders: List[Dict]) -> str:
     order_id = input("請輸入訂單編號：").strip().upper()
     if any(order['order_id'] == order_id for order in orders):

@@ -1,1 +1,18 @@
-[]
+[
+    {
+        "order_id": "1",
+        "customer": "呂祐岷",
+        "items": [
+            {
+                "name": "炒飯",
+                "price": 80,
+                "quantity": 1
+            },
+            {
+                "name": "香腸",
+                "price": 20,
+                "quantity": 1
+            }
+        ]
+    }
+]
